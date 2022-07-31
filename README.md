@@ -19,7 +19,7 @@ $ cd $HOME
 
 $ git clone https://github.com/edgarluck/Install_Cloudflared.git
 
-$ cd NgrokTunnel
+$ cd Install_Cloudflared
 
 $ chmod +x install.sh
 
@@ -37,7 +37,7 @@ $ cd $HOME
 
 $ git clone https://github.com/edgarluck/Install_Cloudflared.git
 
-$ cd NgrokTunnel
+$ cd Install_Cloudflared
 
 $ chmod +x install.sh
 
