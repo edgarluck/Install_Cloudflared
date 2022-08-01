@@ -103,9 +103,8 @@ mv cloudflared $PREFIX/bin
 if [ -f $PREFIX/bin/ngrok ]; then
 echo -e "$G[+]$W"
 echo -e "$G[+]$W Listo"
-echo -e "$G[+]$W Para usar ejecute${C} :${G} ngrok http <puerto>"
-echo -e "$G[+]$W ejemplo$C :${G} ngrok http 8080"
-echo -e "$G[+]$W Es necesario que vinculen su authtoken para usar ngrok."
+echo -e "$G[+]$W Para usar ejecute : cloudflared tunnel -url 127.0.0.1:<puerto>"
+echo -e "$G[+]$W Ejemplo : cloudflared tunnel -url 127.0.0.1:8080"
 echo -e "$G[+]$W Telegram${C} :${G} https://t.me/Linux_Informatic"
 echo
 echo
