@@ -25,7 +25,7 @@ $ chmod +x install.sh
 
 $ sudo bash install.sh
 
-# Instalación en Termux
+# Instalación en Termux 
 
 $ apt update && apt upgrade -y
 
@@ -42,6 +42,14 @@ $ cd Install_Cloudflared
 $ chmod +x install.sh
 
 $ bash install.sh
+
+### segundo método recomendado :
+
+apt update 
+
+apt install cloudflared -y
+
+
 
 # Si sucede algun error con la herramienta puede notificar en el grupo:
 
