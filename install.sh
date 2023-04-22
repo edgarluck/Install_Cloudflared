@@ -100,7 +100,7 @@ OS1=$(uname -o)
 if [ "$OS1" == "Android" ]; then
 chmod 777 cloudflared
 mv cloudflared $PREFIX/bin
-if [ -f $PREFIX/bin/ngrok ]; then
+if [ -f $PREFIX/bin/cloudflared ]; then
 echo -e "$G[+]$W"
 echo -e "$G[+]$W Listo"
 echo -e "$G[+]$W Para usar ejecute : cloudflared tunnel -url 127.0.0.1:<puerto>"
